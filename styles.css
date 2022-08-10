@@ -1,0 +1,146 @@
+
+.sidebar{
+    margin: -8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding: 10px;
+    border: 10px coral;
+    background-color: #4694dc;
+    position: absolute;
+    height: 100%;
+    width: 12%;
+}
+
+.text{
+    margin-left: 9px;
+}
+.footer{
+    display: grid;
+    grid-template-rows: 100px;
+    position: absolute;
+    width: 100%;
+    margin-top: -8px;
+    height: 30%;
+}
+input{
+    margin-top: 15px;
+    margin-left: 16rem;
+    width: 500px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+    box-sizing: border-box;
+    border-radius: 500px;
+    border: 0;
+    background-color: lightgray;
+}
+#intro{
+    margin-left: 14rem;
+}
+
+/* CSS */
+button{
+  background-color: #4694dc;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  position: fixed;
+  
+}
+
+#new{
+    margin-top: 200px;
+    border-radius: 100px;
+    margin-left: 66rem;
+    width: 6rem;
+}
+#upload{
+    margin-top: 200px;
+    border-radius: 100px;
+    width: 6rem;
+    margin-left: 73rem;
+}
+#share{
+    margin-top: 200px;
+    border-radius: 100px;
+    width: 6rem;
+    margin-left: 80rem;
+}
+.aa{
+    margin-top: 17%;
+    margin-left: 190px;
+    width: 89%;
+    height: 70%;
+    position: absolute;
+    background-color: lightgray;
+}
+.container{
+    margin-left: 50px;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    width: 700px;
+    height: 300px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+.grid1{
+    text-align: center;
+}
+#cli{
+    height: 100px;
+}
+#rps{
+    height: 100px;
+}
+#landing{
+    height: 100px;
+}
+#recipe{
+    height: 100px;
+}
+#sign{
+    height: 100px;
+}
+#loading{
+    height: 100px;
+}
+.advert{
+    margin-left: 900px;
+    margin-top: -300px;
+}
+#adl{
+    background-color: #4694dc;
+    border: 100px;
+    height: 60px;
+    border-color: #4694dc;
+}
+.icons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .fa-github {
+    margin: 10px;
+    color: black;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fa-github:hover {
+    transform: rotate(360deg) scale(2);
+  }
